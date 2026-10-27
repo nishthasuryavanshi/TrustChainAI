@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# generated artefacts / large data / secrets
+data/*.csv
+data/*.db
+models/*.joblib
+models/metrics.json
+.env
+*.key
+node_modules/
